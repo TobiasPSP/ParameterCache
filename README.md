@@ -81,7 +81,7 @@ function New-Login
 
 ## Notes
 
-The full article about the techniques used here can be found here: https://powershell.one/powershell-internals/attributes/custom-attributes#final-example
+The full article about the techniques used can be found here: https://powershell.one/powershell-internals/attributes/custom-attributes#final-example
 
 It is noteworthy that this module shows a simple way to *export PowerShell classes*. Typically, classes defined by PowerShell can be exported by modules only when you use the awkward *using module...* statement. `Import-Module` won't make such classes available in the caller context.
 
